@@ -107,6 +107,7 @@ namespace ConsoleApp1
             var flag = CheckPlay(table, 3, 3);
             while (flag)
             {
+                Console.WriteLine();
                 Console.WriteLine($"Ход {CheckPlayer(rand)}: ");
                 int x = hod(" Введите - координату: ");
                 int y = hod(" Введите | координату: ");
